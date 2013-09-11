@@ -32,10 +32,11 @@ ClassRequestTool::Application.routes.draw do
   devise_for :users
   
   # devise_scope :user do
-  #   match "/hauthproxy/valid" => "devise/hauthproxy#valid"
-  #   match '/hauthproxy/invalid' => 'devise/hauthproxy#invalid'
-  #   match '/hauthproxy/logout' => 'devise/hauthproxy#sign_out', :as => :destroy_user_session
-  # end
+#     match "/hauthproxy/create" => "devise/hauthproxy#create", :as => :user_session
+#     #match "/hauthproxy/valid" => "devise/hauthproxy#valid"
+#     #match '/hauthproxy/invalid' => 'devise/hauthproxy#invalid'
+#     #match '/hauthproxy/logout' => 'devise/hauthproxy#sign_out', :as => :destroy_user_session
+#   end
   
   resources :users
 
