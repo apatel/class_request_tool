@@ -39,6 +39,10 @@ ClassRequestTool::Application.routes.draw do
 #   end
   
   resources :users
+  
+  resources :pin_users
+  
+  resources :app_users
 
   resources :repositories
   

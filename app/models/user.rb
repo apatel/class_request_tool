@@ -2,8 +2,8 @@ class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
-  devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :trackable, :validatable, :harvard_auth_proxy_authenticatable#, :omniauthable, :omniauth_providers => [:harvard_auth_proxy_authenticatable]        
+  #devise :database_authenticatable, :registerable,
+  #       :recoverable, :rememberable, :trackable, :validatable, :harvard_auth_proxy_authenticatable#, :omniauthable, :omniauth_providers => [:harvard_auth_proxy_authenticatable]        
   #devise :harvard_auth_proxy_authenticatable     
     
   # Setup accessible (or protected) attributes for your model
